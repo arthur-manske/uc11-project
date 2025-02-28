@@ -14,11 +14,11 @@ public class testGradesRelations {
 		System.out.println("testGradesRelations::init(): Initializing students...");
 
 		this.studentBadArg           = new Student(null,         122.f);
-		this.studentReprovatedGrades = new Student("Reprovated", 29.9f);
-		this.studentBadGrades        = new Student("Bad",        49.9f);
-		this.studentRegularGrades    = new Student("Regular",    74.9f);
-		this.studentGoodGrades       = new Student("Good",       89.9f);
-		this.studentExcelentGrades   = new Student("Excelent",   100.0f);
+		this.studentReprovatedGrades = new Student("Ariel 1", 29.9f);
+		this.studentBadGrades        = new Student("Ariel 2", 49.9f);
+		this.studentRegularGrades    = new Student("Ariel 3", 74.9f);
+		this.studentGoodGrades       = new Student("Ariel 4", 89.9f);
+		this.studentExcelentGrades   = new Student("Arthur", 100.0f);
 		
 		System.out.println("testGradesRelations::init(): Successfully initialized students!");
 	}
